@@ -1,0 +1,70 @@
+/* Style for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 20px;
+  }
+  
+  /* Table styling */
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #2980b9;
+    color: white;
+  }
+  
+  td {
+    background-color: #ecf0f1;
+  }
+  
+  td img {
+    width: 100px;  /* Adjust the size of the images */
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Alternate row colors */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1c40f;
+    color: white;
+  }
+  
+  /* Style for the "Images of Planets" row */
+  td:first-child {
+    font-weight: bold;
+  }
+  
+  /* Responsive design: Make the table more readable on small screens */
+  @media (max-width: 768px) {
+    table {
+      width: 100%;
+      font-size: 14px;
+    }
+  
+    td img {
+      width: 60px;
+    }
+  }
+  
